@@ -11,9 +11,8 @@ Task 1: Initialize the Array
 3. Log your array and confirm it has seven elements, all set to"Hello".
 */
 
-let emptyArrayHello = Array(7);
-let filledArrayHello = emptyArrayHello.fill("Hello");
-console.log(filledArrayHello)
+let emptyArrayHello = Array(7).fill("Hello");
+console.log(emptyArrayHello)
 
 /*
 Task 2: Update the Array
@@ -34,3 +33,8 @@ Task 3: Populate the Array with a for Loop
 30, 40
 */
 
+let arrNumbers = Array(5);
+for (let i = 0; i < Number.length; i++) {
+    numbers[i] = i
+    10;
+}
