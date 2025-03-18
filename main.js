@@ -12,7 +12,7 @@ Task 1: Initialize the Array
 */
 
 let emptyArrayHello = Array(7).fill("Hello");
-console.log(emptyArrayHello);
+console.log(emptyArrayHello); // ['Hello', 'Hello', 'Hello', 'Hello', 'Hello', 'Hello', 'Hello']
 
 /*
 Task 2: Update the Array
@@ -23,7 +23,7 @@ decide how many slots in the array to change.
 */
 
 let partUpdate = emptyArrayHello.fill("2", 1, 4);
-console.log(partUpdate);
+console.log(partUpdate); // ['Hello', '2', '2', '2', 'Hello', 'Hello', 'Hello']
 
 /*
 Task 3: Populate the Array with a for Loop
@@ -37,4 +37,4 @@ let arrNumbers = Array(5);
 for (let i = 0; i < arrNumbers.length; i++) {
     arrNumbers[i] = i * 10;
 }
-console.log(arrNumbers);
+console.log(arrNumbers); // [0, 10, 20, 30, 40]
